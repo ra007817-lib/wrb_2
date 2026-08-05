@@ -1,0 +1,8 @@
+<script>
+    const preco = prompt("Digite o preço do produto: ");
+
+    const valorVista = Number(preco) * 0.90;
+    const valorParcela = Number(preco) / 3;
+
+    alert(`Preço: R$ ${Number(preco).toFixed(2)}À Vista: R$ ${valorVista.toFixed(2)}Ou 3x de R$ ${valorParcela.toFixed(2)}`);
+</script>
