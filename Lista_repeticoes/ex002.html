@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Programa Criação de Chinchilas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row pt-5">
+            
+            <div class="col-md-4">
+                <img src="img/exerc.jpg" alt="Programa Criação de Chinchilas" class="img-fluid">
+            </div>
+            
+            <div class="col-md-8">
+                <h2 class="border-bottom pb-2 mb-4">Programa Criação de Chinchilas</h2>
+                
+                <form>
+                    <p>
+                        Nº Chinchilas:
+                        <input type="number" id="inChinchilas" min="2" required>
+                    </p>
+                    <p>
+                        Nº Anos:
+                        <input type="number" id="inAnos" min="1" required>
+                    </p>
+                    <button type="submit" class="btn btn-primary">
+                        Calcular Criação
+                    </button>
+                </form>
+
+                <h3 id="outResp" class="mt-4 fw-bold font-weight-bold" style="font-size: 1.15rem; white-space: pre-line;"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ex02.js"></script>
+</body>
+</html>
